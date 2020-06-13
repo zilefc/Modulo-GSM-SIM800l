@@ -34,7 +34,7 @@ void loop() {
     Serial.write(sim.read());
 }
 
-void mensagen()
+void mensagem()
 {
   sim.println("AT+CMGF=1");
   delay(1000);
